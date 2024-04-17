@@ -1,0 +1,107 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+    <title>Coverage for corpusutils\tests\test_nbre_valid_jour.py: 100%</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="jquery.isonscreen.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.pyfile_ready);
+    </script>
+</head>
+<body class="pyfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage for <b>corpusutils\tests\test_nbre_valid_jour.py</b> :
+            <span class="pc_cov">100%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <h2 class="stats">
+            5 statements &nbsp;
+            <span class="run hide_run shortkey_r button_toggle_run">5 run</span>
+            <span class="mis shortkey_m button_toggle_mis">0 missing</span>
+            <span class="exc shortkey_x button_toggle_exc">0 excluded</span>
+
+            
+        </h2>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">r</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">p</span> &nbsp; toggle line displays
+    </p>
+    <p class="keyhelp">
+        <span class="key">j</span>
+        <span class="key">k</span> &nbsp; next/prev highlighted chunk
+    </p>
+    <p class="keyhelp">
+        <span class="key">0</span> &nbsp; (zero) top of page
+    </p>
+    <p class="keyhelp">
+        <span class="key">1</span> &nbsp; (one) first highlighted chunk
+    </p>
+    </div>
+</div>
+
+<div id="source">
+    <table>
+        <tr>
+            <td class="linenos">
+<p id="n1" class="stm run hide_run"><a href="#n1">1</a></p>
+<p id="n2" class="pln"><a href="#n2">2</a></p>
+<p id="n3" class="pln"><a href="#n3">3</a></p>
+<p id="n4" class="stm run hide_run"><a href="#n4">4</a></p>
+<p id="n5" class="stm run hide_run"><a href="#n5">5</a></p>
+<p id="n6" class="pln"><a href="#n6">6</a></p>
+<p id="n7" class="pln"><a href="#n7">7</a></p>
+<p id="n8" class="stm run hide_run"><a href="#n8">8</a></p>
+<p id="n9" class="stm run hide_run"><a href="#n9">9</a></p>
+
+            </td>
+            <td class="text">
+<p id="t1" class="stm run hide_run"><span class="key">from</span> <span class="nam">corpusutils</span><span class="op">.</span><span class="nam">nbre_valid_jour</span> <span class="key">import</span> <span class="op">*</span><span class="strut">&nbsp;</span></p>
+<p id="t2" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t3" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t4" class="stm run hide_run"><span class="key">def</span> <span class="nam">test_tran</span><span class="op">(</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t5" class="stm run hide_run">    <span class="key">assert</span> <span class="nam">tran</span><span class="op">(</span><span class="str">'2e-sem-2017.csv'</span><span class="op">)</span><span class="op">==</span><span class="op">{</span><span class="str">'Lundi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">15484142</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">381647</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">5476237</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">48697280</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">5511875</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">5576103</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Mardi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">16022049</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">401953</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">5654745</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">50963460</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">5957313</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">5740525</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Mercredi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">15946823</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">395500</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">5627340</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">50112556</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">5767178</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">5659707</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Jeudi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">16357609</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">403089</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">5715142</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">51866974</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">5968254</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">5860392</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Vendredi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">16470357</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">378261</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">5605118</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">49684080</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">5763075</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">5701842</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Samedi'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">8203018</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t6" class="pln"><span class="num">207119</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">4158421</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">29752150</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">4658538</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">4134418</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">,</span> <span class="str">'Dimanche'</span><span class="op">:</span> <span class="op">{</span><span class="str">'IMAGINE R'</span><span class="op">:</span> <span class="num">3895538</span><span class="op">,</span> <span class="str">'NON DEFINI'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'AUTRE TITRE'</span><span class="op">:</span> <span class="num">126906</span><span class="op">,</span> <span class="str">'FGT'</span><span class="op">:</span> <span class="num">2568294</span><span class="op">,</span> <span class="str">'NAVIGO'</span><span class="op">:</span> <span class="num">18021014</span><span class="op">,</span> <span class="str">'AMETHYSTE'</span><span class="op">:</span> <span class="num">3081628</span><span class="op">,</span> <span class="str">'TST'</span><span class="op">:</span> <span class="num">2738544</span><span class="op">,</span> <span class="str">'?'</span><span class="op">:</span> <span class="num">0</span><span class="op">,</span> <span class="str">'NAVIGO JOUR'</span><span class="op">:</span> <span class="num">0</span><span class="op">}</span><span class="op">}</span><span class="strut">&nbsp;</span></p>
+<p id="t7" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t8" class="stm run hide_run"><span class="key">def</span> <span class="nam">test_nbre_valid_jour</span><span class="op">(</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t9" class="stm run hide_run">    <span class="key">assert</span> <span class="nam">nbre_valid_jour</span><span class="op">(</span><span class="str">'1e-sem-2016.csv'</span><span class="op">)</span><span class="op">==</span><span class="op">[</span><span class="op">[</span><span class="num">17033464</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">425148</span><span class="op">,</span> <span class="num">6171118</span><span class="op">,</span> <span class="num">47445918</span><span class="op">,</span> <span class="num">5796188</span><span class="op">,</span> <span class="num">8811359</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">18693781</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">465743</span><span class="op">,</span> <span class="num">6665063</span><span class="op">,</span> <span class="num">52019060</span><span class="op">,</span> <span class="num">6489603</span><span class="op">,</span> <span class="num">9356751</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">18362336</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">454314</span><span class="op">,</span> <span class="num">6671557</span><span class="op">,</span> <span class="num">51284881</span><span class="op">,</span> <span class="num">6334313</span><span class="op">,</span> <span class="num">9211894</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">17896568</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">441727</span><span class="op">,</span> <span class="num">6423322</span><span class="op">,</span> <span class="num">50455689</span><span class="op">,</span> <span class="num">6191420</span><span class="op">,</span> <span class="num">9145615</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">18278350</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">427238</span><span class="op">,</span> <span class="num">6443547</span><span class="op">,</span> <span class="num">48943582</span><span class="op">,</span> <span class="num">6191134</span><span class="op">,</span> <span class="num">9078845</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">8692272</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">221581</span><span class="op">,</span> <span class="num">4546384</span><span class="op">,</span> <span class="num">26914304</span><span class="op">,</span> <span class="num">4807257</span><span class="op">,</span> <span class="num">6639071</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">,</span> <span class="op">[</span><span class="num">3864588</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">129391</span><span class="op">,</span> <span class="num">2717829</span><span class="op">,</span> <span class="num">15123484</span><span class="op">,</span> <span class="num">3105701</span><span class="op">,</span> <span class="num">4478344</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">]</span><span class="op">]</span><span class="strut">&nbsp;</span></p>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.4</a>,
+            created at 2019-11-21 18:48
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
